@@ -12,20 +12,22 @@ const Banner = () => {
       }}
     >
       <div className="hero-content flex-col gap-10 lg:flex-row-reverse">
-        <div className="w-6/12 mx-auto">
+        <div className="lg:w-6/12">
           <img src={bannerImg} className="" />
         </div>
-        <div className="w-6/12">
+        <div className="lg:w-6/12">
           <h6>WELCOME TO OUR</h6>
-          <h1 className="text-8xl font-bold py-2">Unlocklive</h1>
-          <h3 className="text-4xl pt-3">Elevating Your Coffee Experience</h3>
-          <p className="py-6 pr-10">
+          <h1 className="text-5xl lg:text-8xl font-bold py-2">Unlocklive</h1>
+          <h3 className="text-2xl lg:text-4xl pt-3">
+            Elevating Your Coffee Experience
+          </h3>
+          <p className="py-6 lg:pr-10">
             Unlocklive embodies our commitment to transforming the simple act of
             sipping coffee into a refined and memorable journey. At Epicurean,
             we take pride in curating an exceptional coffee experience that
             transcends the ordinary.
           </p>
-          <div className="flex gap-10 items-center">
+          <div className="flex flex-col-reverse lg:flex-row gap-10 items-center">
             <div>
               <button className="btn bg-[#86371C] text-white">
                 EXPLORE OUR MENU

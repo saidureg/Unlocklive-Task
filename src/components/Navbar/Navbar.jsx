@@ -99,7 +99,7 @@ const Navbar = () => {
         <img src={logo} alt="" />
       </div>
       <div className="navbar-end items-center justify-around">
-        <div className="">
+        <div className="hidden md:flex">
           <button className="btn btn-ghost btn-circle">
             <svg
               xmlns="http://www.w3.org/2000/svg"
