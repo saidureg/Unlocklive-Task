@@ -2,7 +2,7 @@ import logo from "../../assets/logo1.png";
 import admin from "../../assets/Admin.png";
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar max-w-screen-xl mx-auto">
       <div className="navbar-start lg:hidden">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
