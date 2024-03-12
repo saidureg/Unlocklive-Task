@@ -16,12 +16,16 @@ const Banner = () => {
           <img src={bannerImg} className="" />
         </div>
         <div className="lg:w-6/12">
-          <h6>WELCOME TO OUR</h6>
-          <h1 className="text-5xl lg:text-8xl font-bold py-2">Unlocklive</h1>
-          <h3 className="text-2xl lg:text-4xl pt-3">
+          <h6 className="font-bakilda-histori text-center lg:text-left">
+            WELCOME TO OUR
+          </h6>
+          <h1 className="font-bakilda-histori text-5xl lg:text-8xl py-2 text-center lg:text-left">
+            Unlocklive
+          </h1>
+          <h3 className="font-bakilda-histori text-2xl lg:text-4xl pt-3 text-center lg:text-left">
             Elevating Your Coffee Experience
           </h3>
-          <p className="py-6 lg:pr-10">
+          <p className="font-value-pro-regular text-[#270A05] opacity-60 py-6 lg:pr-10 text-center lg:text-left">
             Unlocklive embodies our commitment to transforming the simple act of
             sipping coffee into a refined and memorable journey. At Epicurean,
             we take pride in curating an exceptional coffee experience that
@@ -29,7 +33,7 @@ const Banner = () => {
           </p>
           <div className="flex flex-col-reverse lg:flex-row gap-10 items-center">
             <div>
-              <button className="btn bg-[#86371C] text-white">
+              <button className="btn font-value-pro-medium bg-[#86371C] text-white">
                 EXPLORE OUR MENU
               </button>
             </div>
@@ -52,8 +56,10 @@ const Banner = () => {
                 </div>
               </div>
               <div>
-                <p className="text-2xl font-bold">1200+</p>
-                <p className="">Tasty Variant Coffee</p>
+                <p className="font-abril-display-semibold text-2xl">1200+</p>
+                <p className="font-value-pro-regular opacity-60 text-[#270A05]">
+                  Tasty Variant Coffee
+                </p>
               </div>
             </div>
           </div>

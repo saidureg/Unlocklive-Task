@@ -9,16 +9,16 @@ const CoffeeMenu = () => {
     <div className="max-w-screen-xl mx-auto mt-20">
       <div className="flex items-center justify-center bg-clip-text text-transparent bg-gradient-to-r from-[#86371C] to-[#86371C]">
         <div className="border w-10"></div>
-        <h6 className="text-center mx-7">Coffee Menu</h6>
+        <h6 className="text-center font-abril-fatface mx-7">Coffee Menu</h6>
         <div className="border w-10"></div>
       </div>
-      <h1 className="text-[#270A05] text-center text-4xl mb-12">
+      <h1 className="text-[#270A05] text-center font-bakilda-histori text-4xl mt-2 mb-14">
         Unlocklive Coffee Menu
       </h1>
 
-      <div className="grid grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-4">
         {/* first  */}
-        <div className="flex items-center gap-4 border rounded-2xl p-8">
+        <div className="flex items-center gap-4 border rounded-2xl mx-2 lg:mx-0 p-3 lg:p-8">
           <div className="border border-dashed border-[#270A05] rounded-full w-[84px] h-[84px]">
             <div className="border bg-gray-100 flex justify-center items-center rounded-full overflow-hidden w-[80px] h-[80px]">
               <img
@@ -30,11 +30,15 @@ const CoffeeMenu = () => {
           </div>
           <div className="flex justify-between items-center">
             <div>
-              <h3>Double Espresso x2</h3>
-              <p>
+              <h3 className="font-abril-display-semibold text-lg lg:text-2xl">
+                Double Espresso x2
+              </h3>
+              <p className="font-value-pro-regular text-sm opacity-70">
                 There are many variations of passages Lorem{" "}
-                <span className="px-1 text-gray-300">....................</span>
-                <br /> Ipsum form
+                <span className="px-2 hidden lg:inline text-gray-300">
+                  ...................................
+                </span>
+                <br className="hidden lg:inline-block" /> Ipsum form
               </p>
             </div>
             <div className="flex justify-center border border-dashed border-[#270A05] rounded-full w-[60px] h-[60px]">
@@ -45,7 +49,7 @@ const CoffeeMenu = () => {
           </div>
         </div>
         {/* two  */}
-        <div className="flex items-center gap-4 border rounded-2xl p-8">
+        <div className="flex items-center gap-4 border rounded-2xl mx-2 lg:mx-0 p-3 lg:p-8">
           <div className="border border-dashed border-[#270A05] rounded-full w-[84px] h-[84px]">
             <div className="border bg-gray-100 flex justify-center items-center rounded-full overflow-hidden w-[80px] h-[80px]">
               <img
@@ -57,11 +61,15 @@ const CoffeeMenu = () => {
           </div>
           <div className="flex justify-between items-center">
             <div>
-              <h3>Double Espresso x2</h3>
-              <p>
+              <h3 className="font-abril-display-semibold text-lg lg:text-2xl">
+                Hazelnut Heaven Latte
+              </h3>
+              <p className="font-value-pro-regular text-sm opacity-70">
                 There are many variations of passages Lorem{" "}
-                <span className="px-1 text-gray-300">....................</span>
-                <br /> Ipsum form
+                <span className="px-2 hidden lg:inline text-gray-300">
+                  ...................................
+                </span>
+                <br className="hidden lg:inline-block" /> Ipsum form
               </p>
             </div>
             <div className="flex justify-center border border-dashed border-[#270A05] rounded-full w-[60px] h-[60px]">
@@ -72,7 +80,7 @@ const CoffeeMenu = () => {
           </div>
         </div>
         {/* third  */}
-        <div className="flex items-center gap-4 border rounded-2xl p-8">
+        <div className="flex items-center gap-4 border rounded-2xl mx-2 lg:mx-0 p-3 lg:p-8">
           <div className="border border-dashed border-[#270A05] rounded-full w-[84px] h-[84px]">
             <div className="border bg-gray-100 flex justify-center items-center rounded-full overflow-hidden w-[80px] h-[80px]">
               <img
@@ -84,11 +92,15 @@ const CoffeeMenu = () => {
           </div>
           <div className="flex justify-between items-center">
             <div>
-              <h3>Double Espresso x2</h3>
-              <p>
+              <h3 className="font-abril-display-semibold text-lg lg:text-2xl">
+                Salted Caramel Cold Brew
+              </h3>
+              <p className="font-value-pro-regular text-sm opacity-70">
                 There are many variations of passages Lorem{" "}
-                <span className="px-1 text-gray-300">....................</span>
-                <br /> Ipsum form
+                <span className="px-2 hidden lg:inline text-gray-300">
+                  ...................................
+                </span>
+                <br className="hidden lg:inline-block" /> Ipsum form
               </p>
             </div>
             <div className="flex justify-center border border-dashed border-[#270A05] rounded-full w-[60px] h-[60px]">
@@ -99,7 +111,7 @@ const CoffeeMenu = () => {
           </div>
         </div>
         {/* four  */}
-        <div className="flex items-center gap-4 border rounded-2xl p-8">
+        <div className="flex items-center gap-4 border rounded-2xl mx-2 lg:mx-0 p-3 lg:p-8">
           <div className="border border-dashed border-[#270A05] rounded-full w-[84px] h-[84px]">
             <div className="border bg-gray-100 flex justify-center items-center rounded-full overflow-hidden w-[80px] h-[80px]">
               <img
@@ -111,11 +123,15 @@ const CoffeeMenu = () => {
           </div>
           <div className="flex justify-between items-center">
             <div>
-              <h3>Double Espresso x2</h3>
-              <p>
+              <h3 className="font-abril-display-semibold text-lg lg:text-2xl">
+                Coconut Cream Delight (Summer)
+              </h3>
+              <p className="font-value-pro-regular text-sm opacity-70">
                 There are many variations of passages Lorem{" "}
-                <span className="px-1 text-gray-300">....................</span>
-                <br /> Ipsum form
+                <span className="px-2 hidden lg:inline text-gray-300">
+                  ...................................
+                </span>
+                <br className="hidden lg:inline-block" /> Ipsum form
               </p>
             </div>
             <div className="flex justify-center border border-dashed border-[#270A05] rounded-full w-[60px] h-[60px]">
@@ -127,8 +143,7 @@ const CoffeeMenu = () => {
         </div>
       </div>
       <div className="text-center my-10">
-        {" "}
-        <MenuButton />
+        <MenuButton text={"View All Menu"} />
       </div>
     </div>
   );

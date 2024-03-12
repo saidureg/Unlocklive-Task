@@ -1,8 +1,8 @@
 const Overview = () => {
   return (
-    <div className="bg-[#FFFAF2] max-h-[210px]">
-      <div className="flex flex-col lg:flex-row justify-between max-w-screen-xl mx-auto">
-        <div className="bg-[#86371C] rounded-xl h-[290px] px-6 pt-5 mx-3 lg:mx-0">
+    <div className="bg-[#FFFAF2] lg:max-h-[210px]">
+      <div className="flex flex-col gap-20 lg:flex-row justify-between max-w-screen-xl mx-auto">
+        <div className="bg-[#86371C] rounded-xl h-[290px] w-[315px] md:w-[450px] lg:w-[306px] mx-auto px-6 pt-5 lg:mx-0">
           <svg
             width="244"
             height="165"
@@ -38,24 +38,34 @@ const Overview = () => {
               />
               <path d="M40 30L25 38.6603L25 21.3397L40 30Z" fill="#F2EFDF" />
             </svg>
-            <h3 className="text-2xl font-semibold">Play Intro Video</h3>
+            <h3 className="text-2xl text-[#F2EFDF] font-abril-display-semibold">
+              Play Intro Video
+            </h3>
           </div>
         </div>
-        <div className="my-14">
-          <h3 className="text-2xl font-medium mb-3">Our Opening Hours</h3>
-          <p>Mon - Sat: 07:00 - 18:00</p>
-          <p>Only Sun: 09:00 - 14:00</p>
-        </div>
-        <div className="text-center my-14">
-          <h3 className="text-2xl font-medium mb-3">Our Live Location</h3>
-          <p>
-            848 A 28TH ST, Brooklyn <br /> New York, UK
-          </p>
-        </div>
-        <div className="text-right my-14">
-          <h3 className="text-2xl font-medium mb-3">Book A Table Now</h3>
-          <p>+1 318-254-6849</p>
-          <p>+1 452-754-6579</p>
+        <div className="flex flex-col lg:flex-row justify-around flex-1">
+          <div className="text-center lg:text-left text-[#270A05] my-5 lg:my-14">
+            <h3 className="text-2xl font-abril-display-semibold mb-3">
+              Our Opening Hours
+            </h3>
+            <p className="font-value-pro-regular">Mon - Sat: 07:00 - 18:00</p>
+            <p className="font-value-pro-regular">Only Sun: 09:00 - 14:00</p>
+          </div>
+          <div className="text-center my-5 lg:my-14 text-[#270A05]">
+            <h3 className="text-2xl font-abril-display-semibold mb-3">
+              Our Live Location
+            </h3>
+            <p className="font-value-pro-regular">
+              848 A 28TH ST, Brooklyn <br /> New York, UK
+            </p>
+          </div>
+          <div className="text-center lg:text-right my-5 lg:my-14 text-[#270A05]">
+            <h3 className="text-2xl font-abril-display-semibold mb-3">
+              Book A Table Now
+            </h3>
+            <p className="font-value-pro-regular">+1 318-254-6849</p>
+            <p className="font-value-pro-regular">+1 452-754-6579</p>
+          </div>
         </div>
       </div>
     </div>

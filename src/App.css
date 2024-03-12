@@ -1,1 +1,72 @@
+/* Abril Display Black */
+@font-face {
+  font-family: "Abril Display Black";
+  src: url("./fonts/Abril/Abril_Display_Black.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
 
+/* Abril Display SemiBold */
+@font-face {
+  font-family: "Abril Display SemiBold";
+  src: url("./fonts/Abril/Abril_Display_SemiBold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Abril Fatface */
+@font-face {
+  font-family: "Abril Fatface";
+  src: url("./fonts/Abril/Abril_Fatface.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Bakilda Histori */
+@font-face {
+  font-family: "Bakilda Histori";
+  src: url("./fonts/Bakilda/bakilda-histori.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Value Sans Pro Regular */
+@font-face {
+  font-family: "Value Sans Pro Regular";
+  src: url("./fonts/Value_Sans_Pro/ValueSansPro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Value Sans Pro Medium */
+@font-face {
+  font-family: "Value Sans Pro Medium";
+  src: url("./fonts/Value_Sans_Pro/ValueSansPro-Medium.ttf") format("truetype");
+  font-weight: 500; /* Medium font weight */
+  font-style: normal;
+}
+
+/* Tailwind CSS utility classes for custom fonts */
+.font-abril-display-black {
+  font-family: "Abril Display Black", sans-serif;
+}
+
+.font-abril-fatface {
+  font-family: "Abril Fatface", sans-serif;
+}
+
+.font-abril-display-semibold {
+  font-family: "Abril Display SemiBold", sans-serif;
+}
+
+.font-bakilda-histori {
+  font-family: "Bakilda Histori", sans-serif;
+}
+
+.font-value-pro-regular {
+  font-family: "Value Sans Pro Regular", sans-serif;
+}
+
+.font-value-pro-medium {
+  font-family: "Value Sans Pro Medium", sans-serif;
+}
